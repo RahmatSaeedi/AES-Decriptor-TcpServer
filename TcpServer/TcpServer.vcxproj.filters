@@ -13,5 +13,87 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Logger">
+      <UniqueIdentifier>{b831914d-3be4-46b5-9e26-cc621c3ce365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TCP Server">
+      <UniqueIdentifier>{1831c4b4-b601-4bff-bf3e-505fa5d80685}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\TCP Server">
+      <UniqueIdentifier>{edfb3ac2-9c9e-488e-8a93-14cbb4b506fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logger">
+      <UniqueIdentifier>{5f26cffb-ada0-4873-98dc-fbc5f7ce00b3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Crypto Service">
+      <UniqueIdentifier>{0f1bfd09-a87a-4e61-85a9-2e96a7f001dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Crypto Service">
+      <UniqueIdentifier>{c8f739a2-0b66-49a3-9d0f-c45e558c7b20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{40283dfb-0f6f-4804-b880-f30d2be5b173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\StreamBuffer">
+      <UniqueIdentifier>{6fbc432c-bf54-4151-9c2b-f10bf59a403a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="Tcp_Server.cpp">
+      <Filter>Source Files\TCP Server</Filter>
+    </ClCompile>
+    <ClCompile Include="AES.cpp">
+      <Filter>Source Files\Crypto Service</Filter>
+    </ClCompile>
+    <ClCompile Include="AES_CBC.cpp">
+      <Filter>Source Files\Crypto Service</Filter>
+    </ClCompile>
+    <ClCompile Include="AES_Block.cpp">
+      <Filter>Source Files\Crypto Service</Filter>
+    </ClCompile>
+    <ClCompile Include="AES_Key_Expansion.cpp">
+      <Filter>Source Files\Crypto Service</Filter>
+    </ClCompile>
+    <ClCompile Include="HMAC_SHA_256.h">
+      <Filter>Header Files\Crypto Service</Filter>
+    </ClCompile>
+    <ClCompile Include="SHA_256.cpp">
+      <Filter>Source Files\Crypto Service</Filter>
+    </ClCompile>
+    <ClCompile Include="StreamBuffer.cpp">
+      <Filter>Source Files\StreamBuffer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tcp_Server.h">
+      <Filter>Header Files\TCP Server</Filter>
+    </ClInclude>
+    <ClInclude Include="Languages.h">
+      <Filter>Header Files\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="LoggerLocations.h">
+      <Filter>Header Files\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="Messages.h">
+      <Filter>Header Files\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="AES.h">
+      <Filter>Header Files\Crypto Service</Filter>
+    </ClInclude>
+    <ClInclude Include="SHA_256.h">
+      <Filter>Header Files\Crypto Service</Filter>
+    </ClInclude>
+    <ClInclude Include="StreamBuffer.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -138,6 +138,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AES.h" />
+    <ClInclude Include="Languages.h" />
+    <ClInclude Include="Messages.h" />
+    <ClInclude Include="Logger.h" />
+    <ClInclude Include="LoggerLocations.h" />
+    <ClInclude Include="SHA_256.h" />
+    <ClInclude Include="StreamBuffer.h" />
+    <ClInclude Include="Tcp_Server.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AES.cpp" />
+    <ClCompile Include="AES_Block.cpp" />
+    <ClCompile Include="AES_CBC.cpp" />
+    <ClCompile Include="AES_Key_Expansion.cpp" />
+    <ClCompile Include="HMAC_SHA_256.h" />
+    <ClCompile Include="Logger.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="SHA_256.cpp" />
+    <ClCompile Include="StreamBuffer.cpp" />
+    <ClCompile Include="Tcp_Server.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
